@@ -78,6 +78,4 @@ class ApiClient {
   }
 }
 
-export const apiInstance = new ApiClient(
-  `${process.env.NEXT_PUBLIC_BACKEND_BASE_URL}`
-);
+export const apiInstance = new ApiClient('https://b003fa4f69e378d3.mokky.dev');
